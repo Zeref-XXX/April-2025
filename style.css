@@ -7,7 +7,7 @@
 
 body {
     display: flex;
-    background-color: rgba(197, 214, 228, 0.898);
+    background-color: rgb(242, 187, 174);
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -16,7 +16,7 @@ body {
     background-color: rgba(255, 228, 196, 0.601);
     width:450px;
     border-radius: 20px;
-    box-shadow: px salmon ;
+    box-shadow: 10px 10px 20px rgb(226, 153, 135) ;
 }
 
 form{
