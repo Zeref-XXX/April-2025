@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h1{
+    align-items: center;
+    text-align: center;
+    /* width: 130px; */
+    /* border-bottom: 2px solid red;  */
+}
+label{
+    font-size: 20px;
+}
 
 body {
     display: flex;
@@ -29,9 +37,23 @@ form{
 input{
     width: 400px;
     height: 30px;
+    border: none; 
+}
+input:hover{
+    border: 2px solid rgb(220, 151, 151);
 }
 button{
-    height: 30px;
-    width: 100px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
     margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.6s linear;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(222, 184, 135, 0.507);
 }
